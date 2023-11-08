@@ -35,25 +35,14 @@
 **#폴더 구조**
 =============
 ├── prisma
-
 │   └── schema.prisma
-
 ├── src
-
 │   ├── app.js
-
 │   ├── routes
-
 │   │   ├── categories.router.js
-
 │   │   └── menus.router.js
-
 │   └── utils
-
 │       └── prisma
-
 │           └── index.js
-
 ├── package.json
-
 └── yarn.lock
