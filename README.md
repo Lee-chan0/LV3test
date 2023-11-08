@@ -29,4 +29,18 @@
     - 선택한 메뉴가 존재하지 않을 경우, “존재하지 않는 메뉴입니다." 메시지 반환하기
 9. 메뉴 삭제 API
     - 선택한 메뉴 삭제하기
-    - 선택한 메뉴가 존재하지 않을 경우, “존재하지 않는 메뉴입니다." 메시지 반환하기# LV3test
+    - 선택한 메뉴가 존재하지 않을 경우, “존재하지 않는 메뉴입니다." 메시지 반환하기
+
+**#폴더 구조**
+├── prisma
+│   └── schema.prisma
+├── src
+│   ├── app.js
+│   ├── routes
+│   │   ├── categories.router.js
+│   │   └── menus.router.js
+│   └── utils
+│       └── prisma
+│           └── index.js
+├── package.json
+└── yarn.lock
